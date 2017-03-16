@@ -5,4 +5,5 @@ def get_answer(question):
 	answers = {'привет': 'И тебе привет!', 'как дела': 'Лучше всех!', 'пока': 'Увидимся'}
 	print(answers[question])
 
-get_answer(question)
+if __name__ == '__main__':
+	get_answer(question)
